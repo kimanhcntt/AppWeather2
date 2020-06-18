@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nen"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:id="@+id/imgback1"
+        android:layout_width="36dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/txttp1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên thành phố"
+        android:textColor="#0320C6"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgmay1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            app:srcCompat="@drawable/cloudse" />
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:textSize="50dp"
+            android:id="@+id/txtnhietdo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0320C6"
+            android:text="Nhiệt độ" />
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#0320C6"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Ngày cập nhật"
+        android:id="@+id/txtday1"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtdescription1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textColor="#0320C6"
+        android:layout_gravity="center"
+        android:text="Mô Tả"
+        android:textSize="50dp" />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+       <ImageView
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/gio" />
+
+        <TextView
+            android:id="@+id/txtwind1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="#0320C6"
+            android:text="Gió"
+            android:textSize="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/sunrise" />
+
+        <TextView
+            android:id="@+id/txtsunrise1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="#0320C6"
+            android:text="Mọc"
+            android:textSize="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/runset" />
+
+        <TextView
+            android:id="@+id/txtsunset1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="#0320C6"
+            android:text="Lặn"
+            android:textSize="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/timezone" />
+
+        <TextView
+            android:id="@+id/txttimezone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="#0320C6"
+            android:text="Múi Giờ"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
